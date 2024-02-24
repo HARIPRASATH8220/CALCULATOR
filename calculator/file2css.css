@@ -1,0 +1,24 @@
+.calculator {
+  width: 200px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #c12af3;
+  background-color: aquamarine;
+}
+
+#display {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+}
+
